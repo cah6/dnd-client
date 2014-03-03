@@ -1,0 +1,11 @@
+{
+	"settings": {
+    	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme"
+  	},
+	"folders":
+	[
+		{
+			"path": "Assets/Code"
+		}
+	]
+}
