@@ -70,9 +70,14 @@
      <Compile Include="Assets\Assets\Plugins\JsonFx.Json\Properties\AssemblyInfo.cs" />
      <Compile Include="Assets\Assets\Plugins\JsonFx.Json\Properties\AssemblyVersion.cs" />
      <Compile Include="Assets\Assets\Plugins\JsonFx.Json\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Code\DndClientContext.cs" />
+     <Compile Include="Assets\Code\DndClientRoot.cs" />
      <Compile Include="Assets\Code\JsonData\StartInfo.cs" />
+     <Compile Include="Assets\Code\Signals\StartSignal.cs" />
      <Compile Include="Assets\Code\TileClick.cs" />
-     <Compile Include="Assets\Code\WebsocketView.cs" />
+     <Compile Include="Assets\Code\WebSocketMediator.cs" />
+     <Compile Include="Assets\Code\WebSocketView.cs" />
+     <Compile Include="Assets\Code\controller\StartCommand.cs" />
      <Compile Include="Assets\Code\strange\ReadMe.cs" />
      <Compile Include="Assets\Code\strange\extensions\command\api\CommandExceptionType.cs" />
      <Compile Include="Assets\Code\strange\extensions\command\api\CommandKeys.cs" />

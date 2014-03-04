@@ -8,18 +8,24 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Text;
 using JsonFx.Json;
+using strange.extensions.dispatcher.eventdispatcher.api;
+using strange.extensions.mediation.impl;
+using strange.extensions.signal.impl;
 
 public delegate void Task();
 
-public class WebsocketView : MonoBehaviour {
+public class WebSocketView : View {
 
 	public WebSocket ws;
 
 	private Queue<Task> taskQueue = new Queue<Task>();
 	private object queueLock = new object();
 
+	[Inject]
+	public IEventDispatcher dispatcher{get; set;}
+
 	//Called on program startup, connects to server and defines OnMessage and OnErroor handling.
-	void Start () {
+	internal void init () {
 		ws = new WebSocket ("ws://localhost:9000/connect/cah6");
 
 		ws.OnError += (sender, e) => {

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"AddPl",
+				"AddPlayers"
+			],
+			[
+				"Json",
+				"JsonReader"
+			],
+			[
+				"grid",
+				"gridSize"
+			],
+			[
+				"Add",
+				"AddPlayer"
+			],
+			[
 				"player",
 				"playerTransform"
 			],
@@ -40,18 +56,50 @@
 	"buffers":
 	[
 		{
-			"file": "Assets/Code/WebsocketView.cs",
+			"file": "Assets/Code/DndClientContext.cs",
 			"settings":
 			{
-				"buffer_size": 3077,
+				"buffer_size": 2637,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Assets/Code/TileClick.cs",
+			"file": "Assets/Code/StartSignal.cs",
 			"settings":
 			{
-				"buffer_size": 935,
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/controller/StartCommand.cs",
+			"settings":
+			{
+				"buffer_size": 607,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/WebsocketView.cs",
+			"settings":
+			{
+				"buffer_size": 4240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/DndClientRoot.cs",
+			"settings":
+			{
+				"buffer_size": 189,
 				"line_ending": "Unix"
 			}
 		}
@@ -59,24 +107,28 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 47.0,
 		"selected_items":
 		[
 			[
-				"packa",
-				"Preferences: Browse Packages"
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"rein",
-				"Indentation: Reindent Lines"
+				"remov",
+				"Package Control: Remove Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
 			],
 			[
 				"Snippet: ",
@@ -108,8 +160,18 @@
 	},
 	"file_history":
 	[
-		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/UnityC#.sublime-settings",
+		"/Users/christianhenry/Documents/Unity/websocket-test/dnd-client.sublime-project",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/StartSignal.cs",
+		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/WebsocketView.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/JsonData/StartInfo.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/TileClick.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/DndClientRoot.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/DndClientContext.cs",
+		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/UnityC#.sublime-settings",
 		"/Users/christianhenry/Documents/Play/websocket-test/app/models/CharacterModel.scala",
 		"/Users/christianhenry/Documents/Play/websocket-test/project/build.properties",
 		"/Users/christianhenry/Documents/Play/websocket-test/.git/COMMIT_EDITMSG",
@@ -140,6 +202,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"super+shift+i",
+			"rein",
+			"System",
+			"transform",
+			"GameObject",
+			"gridSize",
+			"scale",
 			"chatChan",
 			"sender",
 			"jdbc"
@@ -160,23 +229,77 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Assets/Code/WebsocketView.cs",
+					"file": "Assets/Code/DndClientContext.cs",
 					"settings":
 					{
-						"buffer_size": 3077,
+						"buffer_size": 2637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								873,
-								873
+								961,
+								961
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 64.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Code/StartSignal.cs",
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Assets/Code/controller/StartCommand.cs",
+					"settings":
+					{
+						"buffer_size": 607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
 							]
 						],
 						"settings":
@@ -191,25 +314,77 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "Assets/Code/TileClick.cs",
+					"buffer": 3,
+					"file": "/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 					"settings":
 					{
-						"buffer_size": 935,
+						"buffer_size": 58,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								826,
-								826
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/Code/WebsocketView.cs",
+					"settings":
+					{
+						"buffer_size": 4240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								428,
+								428
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/Code/DndClientRoot.cs",
+					"settings":
+					{
+						"buffer_size": 189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -261,7 +436,7 @@
 	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -274,11 +449,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/Users/christianhenry/Documents/Unity/websocket-test/dnd-client.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,

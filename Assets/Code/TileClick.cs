@@ -16,8 +16,8 @@ public class TileClick : MonoBehaviour {
 	 * On start, get a reference to websocket so we can send messages.
 	 */
 	void Start () {
-		GameObject sc = GameObject.Find ("ServerConnection");
-		this.ws = sc.GetComponent<WebsocketView> ().ws;
+		GameObject sc = GameObject.Find ("WebSocketView");
+		this.ws = sc.GetComponent<WebSocketView> ().ws;
 	}
 
 	/**
