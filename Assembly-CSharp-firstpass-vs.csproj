@@ -52,6 +52,7 @@
      <Compile Include="Assets\plugins\SimpleJSON.cs" />
      <None Include="Assets\Assets\Plugins\JsonFx.Json\Readme.txt" />
      <None Include="Assets\plugins\JSONObject\readme.txt" />
+     <None Include="Assets\Code\strange\extensions\ReadMe.txt" />
      <None Include="Assets\Assets\Plugins\JsonFx.Json\License.txt" />
  <Reference Include="Assets\Assets\Plugins\System.ServiceModel.Web">
  <HintPath>Assets\Assets\Plugins\System.ServiceModel.Web.dll</HintPath>
