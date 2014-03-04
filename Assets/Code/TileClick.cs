@@ -1,14 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using WebSocketSharp;
-using System.Json;
+using System.Collections.Generic;
+using System.Xml;
+using System.Xml.Serialization;
+using System.IO;
+using System.Text;
+using JsonFx.Json;
 
 public class TileClick : MonoBehaviour {
 
 	public WebSocket ws;
-
-	JsonObject clickInfo = new JsonObject();
-	JsonArray data = new JsonArray();
 
 	/**
 	 * On start, get a reference to websocket so we can send messages.
@@ -16,21 +18,14 @@ public class TileClick : MonoBehaviour {
 	void Start () {
 		GameObject sc = GameObject.Find ("ServerConnection");
 		this.ws = sc.GetComponent<WebsocketView> ().ws;
-		
-		clickInfo.Add("type", "playerPosition");
-		clickInfo.Add("data", data);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 
+	/**
+	 * When this tile is clicked, send a message to server relaying that it was this client that clicked this tile.
+	 */
 	void OnMouseDown(){
 		Debug.Log ("Clicked tile at position " + transform.position.x + "," + transform.position.y);
-		data.Clear();
-		data.Add (transform.position.x);
-		data.Add (transform.position.y);
-		ws.Send (clickInfo.ToString());
+		Player p = new Player("playerType", "cah6", new Point((int) transform.position.x, (int) transform.position.y));
+		ws.Send(JsonWriter.Serialize(p));
 	}
 }
