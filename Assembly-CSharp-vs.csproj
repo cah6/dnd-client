@@ -70,14 +70,77 @@
      <Compile Include="Assets\Assets\Plugins\JsonFx.Json\Properties\AssemblyInfo.cs" />
      <Compile Include="Assets\Assets\Plugins\JsonFx.Json\Properties\AssemblyVersion.cs" />
      <Compile Include="Assets\Assets\Plugins\JsonFx.Json\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Assets\Plugins\MiniJSON.cs" />
+     <Compile Include="Assets\Assets\Plugins\SimpleJSON.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\IPositionable.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\ITouchable.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UIAbstractContainer.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UIAbstractTouchableContainer.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UIControlTemplate.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UIElement.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UIObject.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UISprite.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UISpriteManager.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\BaseElements\UITouchableSprite.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Containers\UIAbsoluteLayout.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Containers\UIBackgroundLayout.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Containers\UIHorizontalLayout.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Containers\UIScrollableHorizontalLayout.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Containers\UIScrollableVerticalLayout.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Containers\UIVerticalLayout.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Containers\UIVerticalPanel.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Structs\UIAnchorInfo.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Structs\UIClippingPlane.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Structs\UIEdgeInsets.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Structs\UIEdgeOffsets.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Structs\UITouchMaker.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Structs\UIUVRect.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Structs\UIVertexIndices.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Support\IPositionablePositioningExtensions.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Support\UIObjectAnimationExtensions.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\Support\UIRelative.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UI.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIAnimation\Easing.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIAnimation\UIAnimation.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\TouchInfo.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIButton.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIColorPicker.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIContinuousButton.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIGhostJoystick.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIGridLayout.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIJoystick.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIKnob.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UILanguageManager.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIProgressBar.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIRadioButtonGroup.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UISlice9.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UISlider.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UISpacer.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIStateButton.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIStateSprite.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UISwipeDetector.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIText.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UITextInstance.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIToggleButton.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIElements\UIZoomButton.cs" />
+     <Compile Include="Assets\Assets\Plugins\UIToolkit\UIToolkit.cs" />
+     <Compile Include="Assets\Code\Commands\AddPlayerCommand.cs" />
+     <Compile Include="Assets\Code\Commands\ConnectCommand.cs" />
+     <Compile Include="Assets\Code\Commands\CreateMapCommand.cs" />
+     <Compile Include="Assets\Code\Commands\RemovePlayerCommand.cs" />
+     <Compile Include="Assets\Code\Commands\StartCommand.cs" />
+     <Compile Include="Assets\Code\Commands\UpdatePlayerCommand.cs" />
      <Compile Include="Assets\Code\DndClientContext.cs" />
      <Compile Include="Assets\Code\DndClientRoot.cs" />
+     <Compile Include="Assets\Code\JsonData\MapInfo.cs" />
      <Compile Include="Assets\Code\JsonData\StartInfo.cs" />
-     <Compile Include="Assets\Code\Signals\StartSignal.cs" />
-     <Compile Include="Assets\Code\TileClick.cs" />
-     <Compile Include="Assets\Code\WebSocketMediator.cs" />
-     <Compile Include="Assets\Code\WebSocketView.cs" />
-     <Compile Include="Assets\Code\controller\StartCommand.cs" />
+     <Compile Include="Assets\Code\RoomCreator.cs" />
+     <Compile Include="Assets\Code\View\TileMediator.cs" />
+     <Compile Include="Assets\Code\View\TileView.cs" />
+     <Compile Include="Assets\Code\View\WebSocketMediator.cs" />
+     <Compile Include="Assets\Code\View\WebSocketView.cs" />
+     <Compile Include="Assets\Code\WebSocketWrapper.cs" />
      <Compile Include="Assets\Code\strange\ReadMe.cs" />
      <Compile Include="Assets\Code\strange\extensions\command\api\CommandExceptionType.cs" />
      <Compile Include="Assets\Code\strange\extensions\command\api\CommandKeys.cs" />
@@ -191,22 +254,26 @@
      <Compile Include="Assets\Code\strange\framework\impl\Binding.cs" />
      <Compile Include="Assets\Code\strange\framework\impl\SemiBinding.cs" />
      <None Include="Assets\Assets\Plugins\JsonFx.Json\Readme.txt" />
-     <None Include="Assets\plugins\JSONObject\readme.txt" />
+     <None Include="Assets\Assets\Resources\textDemoSheet2x.txt" />
+     <None Include="Assets\Assets\Plugins\UIToolkit\Shaders\UIToolkit Premultiplied Alpha.shader" />
      <None Include="Assets\Code\strange\extensions\ReadMe.txt" />
      <None Include="Assets\Assets\Plugins\JsonFx.Json\License.txt" />
+     <None Include="Assets\Assets\Resources\colorPickerSheet.txt" />
+     <None Include="Assets\Assets\Resources\joystickSheet.txt" />
+     <None Include="Assets\Assets\Plugins\UIToolkit\Shaders\UIToolkit Alpha Enabled (Default).shader" />
+     <None Include="Assets\Assets\Resources\kitchenSinkSheet.txt" />
+     <None Include="Assets\Assets\Resources\joystickSheet2x.txt" />
+     <None Include="Assets\Assets\Plugins\UIToolkit\Shaders\UIToolkit No Alpha.shader" />
+     <None Include="Assets\Assets\Resources\textDemoSheet.txt" />
+     <None Include="Assets\Assets\Resources\prototype.txt" />
+     <None Include="Assets\Assets\Resources\kitchenSinkSheet2x.txt" />
+     <None Include="Assets\Assets\Resources\prototype2x.txt" />
  <Reference Include="Assets\Assets\Plugins\System.ServiceModel.Web">
  <HintPath>Assets\Assets\Plugins\System.ServiceModel.Web.dll</HintPath>
  </Reference>
  <Reference Include="Assets\Assets\Plugins\websocket-sharp">
  <HintPath>Assets\Assets\Plugins\websocket-sharp.dll</HintPath>
  </Reference>
- <Reference Include="Assets\plugins\ICSharpCode.SharpZipLib">
- <HintPath>Assets\plugins\ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{51A0841E-01D9-A0BF-04B2-394F50FB4205}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

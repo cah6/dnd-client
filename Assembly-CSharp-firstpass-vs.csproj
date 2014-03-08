@@ -49,7 +49,6 @@
      <Compile Include="Assets\plugins\JSONObject\JSONObject.cs" />
      <Compile Include="Assets\plugins\JSONObject\JSONTemplates.cs" />
      <Compile Include="Assets\plugins\JSONObject\VectorTemplates.cs" />
-     <Compile Include="Assets\plugins\SimpleJSON.cs" />
      <None Include="Assets\Assets\Plugins\JsonFx.Json\Readme.txt" />
      <None Include="Assets\plugins\JSONObject\readme.txt" />
      <None Include="Assets\Code\strange\extensions\ReadMe.txt" />
@@ -59,9 +58,6 @@
  </Reference>
  <Reference Include="Assets\Assets\Plugins\websocket-sharp">
  <HintPath>Assets\Assets\Plugins\websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="Assets\plugins\ICSharpCode.SharpZipLib">
- <HintPath>Assets\plugins\ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

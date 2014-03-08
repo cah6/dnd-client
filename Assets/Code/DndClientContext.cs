@@ -13,6 +13,7 @@ using strange.extensions.dispatcher.eventdispatcher.api;
 using strange.extensions.dispatcher.eventdispatcher.impl;
 using strange.extensions.command.api;
 using strange.extensions.command.impl;
+using WebSocketSharp;
 
 public class DndClientContext : MVCSContext
 {
@@ -44,22 +45,25 @@ public class DndClientContext : MVCSContext
     
     protected override void mapBindings()
     {
-        // injectionBinder.Bind<IExampleModel>().To<ExampleModel>().ToSingleton();
-        // injectionBinder.Bind<IExampleService>().To<ExampleService>().ToSingleton();
-        
-
         mediationBinder.Bind<WebSocketView>().To<WebSocketMediator>();
+        mediationBinder.Bind<TileView>().To<TileMediator>();
         
-
-        // commandBinder.Bind<CallWebServiceSignal>().To<CallWebServiceCommand>();
-        
-        //StartSignal is now fired
+        //Bind a start signal that we kick things off with
         commandBinder.Bind<StartSignal>().To<StartCommand>().Once();
-        
-        //In MyFirstProject, there's are SCORE_CHANGE and FULFILL_SERVICE_REQUEST Events.
-        //Here we change that to a Signal. The Signal isn't bound to any Command,
-        //so we map it as an injection so a Command can fire it, and a Mediator can receive it
-        // injectionBinder.Bind<ScoreChangedSignal>().ToSingleton();
-        // injectionBinder.Bind<FulfillWebServiceRequestSignal>().ToSingleton();
+
+        //Bind commands for the WebSocketMediator to use
+        commandBinder.Bind<AddPlayerSignal>().To<AddPlayerCommand>();
+        commandBinder.Bind<CreateMapSignal>().To<CreateMapCommand>();
+        commandBinder.Bind<RemovePlayerSignal>().To<RemovePlayerCommand>();
+        commandBinder.Bind<UpdatePlayerSignal>().To<UpdatePlayerCommand>();
+
+        commandBinder.Bind<ConnectSignal>().To<ConnectCommand>();
+
+        //Bind our websocket so that the WebSocketView can receive messages, and other GameObjects can send messages
+        WebSocketWrapper ws = new WebSocketWrapper();
+        injectionBinder.Bind<WebSocketWrapper>().ToValue(ws);
+
+
     }
 }
+
