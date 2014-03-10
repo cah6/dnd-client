@@ -46,23 +46,28 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\Plugins\JsonFx.Json\Scripts\json2.js" />
+     <Compile Include="Assets\Scripts\PopupTest.js" />
      <None Include="Assets\Assets\Plugins\JsonFx.Json\Readme.txt" />
-     <None Include="Assets\plugins\JSONObject\readme.txt" />
+     <None Include="Assets\Assets\Resources\textDemoSheet2x.txt" />
+     <None Include="Assets\Assets\Plugins\UIToolkit\Shaders\UIToolkit Premultiplied Alpha.shader" />
+     <None Include="Assets\Scripts\strange\extensions\ReadMe.txt" />
      <None Include="Assets\Assets\Plugins\JsonFx.Json\License.txt" />
+     <None Include="Assets\Assets\Resources\colorPickerSheet.txt" />
+     <None Include="Assets\Assets\Resources\joystickSheet.txt" />
+     <None Include="Assets\Assets\Plugins\UIToolkit\Shaders\UIToolkit Alpha Enabled (Default).shader" />
+     <None Include="Assets\Assets\Resources\kitchenSinkSheet.txt" />
+     <None Include="Assets\Assets\Resources\joystickSheet2x.txt" />
+     <None Include="Assets\Assets\Plugins\UIToolkit\Shaders\UIToolkit No Alpha.shader" />
+     <None Include="Assets\Assets\Resources\textDemoSheet.txt" />
+     <None Include="Assets\Assets\Resources\prototype.txt" />
+     <None Include="Assets\Assets\Resources\kitchenSinkSheet2x.txt" />
+     <None Include="Assets\Assets\Resources\prototype2x.txt" />
  <Reference Include="Assets\Assets\Plugins\System.ServiceModel.Web">
  <HintPath>Assets\Assets\Plugins\System.ServiceModel.Web.dll</HintPath>
  </Reference>
  <Reference Include="Assets\Assets\Plugins\websocket-sharp">
  <HintPath>Assets\Assets\Plugins\websocket-sharp.dll</HintPath>
  </Reference>
- <Reference Include="Assets\plugins\ICSharpCode.SharpZipLib">
- <HintPath>Assets\plugins\ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{51A0841E-01D9-A0BF-04B2-394F50FB4205}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

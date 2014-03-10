@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{27B97958-4F32-32F9-54B7-1812A041FCA9}") = "websocket-test", "Assembly-CSharp.csproj", "{4BE51A4B-5586-7773-2075-29CDD49E4F9F}"
 EndProject
+Project("{27B97958-4F32-32F9-54B7-1812A041FCA9}") = "websocket-test", "Assembly-CSharp-Editor.csproj", "{572FA89E-472B-958F-C0FA-FC35079FC6B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{4BE51A4B-5586-7773-2075-29CDD49E4F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BE51A4B-5586-7773-2075-29CDD49E4F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BE51A4B-5586-7773-2075-29CDD49E4F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572FA89E-472B-958F-C0FA-FC35079FC6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572FA89E-472B-958F-C0FA-FC35079FC6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572FA89E-472B-958F-C0FA-FC35079FC6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572FA89E-472B-958F-C0FA-FC35079FC6B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																				GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																																	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

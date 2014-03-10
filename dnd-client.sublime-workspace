@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"We",
+				"WebSocket"
+			],
+			[
+				"WebSocke",
+				"WebSocketWrapper"
+			],
+			[
+				"med",
+				"mediationBinder"
+			],
+			[
+				"player",
+				"playerName"
+			],
+			[
+				"AddPlayer",
+				"AddPlayerCommand"
+			],
+			[
+				"messa",
+				"messageReceivedSignal"
+			],
+			[
+				"mess",
+				"messageReceivedSignal"
+			],
+			[
 				"AddPl",
 				"AddPlayers"
 			],
@@ -18,10 +46,6 @@
 			[
 				"Add",
 				"AddPlayer"
-			],
-			[
-				"player",
-				"playerTransform"
 			],
 			[
 				"Js",
@@ -59,39 +83,23 @@
 			"file": "Assets/Code/DndClientContext.cs",
 			"settings":
 			{
-				"buffer_size": 2637,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Assets/Code/StartSignal.cs",
+			"file": "Assets/Code/WebSocketWrapper.cs",
 			"settings":
 			{
-				"buffer_size": 114,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Assets/Code/controller/StartCommand.cs",
+			"file": "Assets/Code/WebSocketView.cs",
 			"settings":
 			{
-				"buffer_size": 607,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 58,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Assets/Code/WebsocketView.cs",
-			"settings":
-			{
-				"buffer_size": 4240,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +107,194 @@
 			"file": "Assets/Code/DndClientRoot.cs",
 			"settings":
 			{
-				"buffer_size": 189,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/WebSocketMediator.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Commands/CreateMapCommand.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Commands/UpdatePlayerCommand",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Commands/RemovePlayerCommand.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Commands/AddPlayerCommand.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Signals/AddPlayerSignal",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/TileView.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/TileMediator.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Commands/StartCommand.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Commands/ConnectCommand.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/strange/extensions/mediation/impl/View.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/JsonData/MapInfo.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/Commands/UpdatePlayerCommand.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/View/WebSocketMediator.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/RoomCreator.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Assets/Plugins/UIToolkit/UIToolkit.cs",
+			"settings":
+			{
+				"buffer_size": 8815,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/View/WebSocketView.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/View/TileView.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/View/MainMenuView.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/View/MainMenuMediator.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/View/GameOverlayView.cs",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Assets/Code/View/PopupTest.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "using UnityEngine;\n \npublic class Popup {\n	static int popupListHash = \"PopupList\".GetHashCode();\n \n	public static bool List (Rect position, ref bool showList, ref int listEntry, GUIContent buttonContent, GUIContent[] listContent,\n							 GUIStyle listStyle) {\n		return List(position, ref showList, ref listEntry, buttonContent, listContent, \"button\", \"box\", listStyle);\n	}\n \n	public static bool List (Rect position, ref bool showList, ref int listEntry, GUIContent buttonContent, GUIContent[] listContent,\n							 GUIStyle buttonStyle, GUIStyle boxStyle, GUIStyle listStyle) {\n		int controlID = GUIUtility.GetControlID(popupListHash, FocusType.Passive);\n		bool done = false;\n		switch (Event.current.GetTypeForControl(controlID)) {\n			case EventType.mouseDown:\n				if (position.Contains(Event.current.mousePosition)) {\n					GUIUtility.hotControl = controlID;\n					showList = true;\n				}\n				break;\n			case EventType.mouseUp:\n				if (showList) {\n					done = true;\n				}\n				break;\n		}\n \n		GUI.Label(position, buttonContent, buttonStyle);\n		if (showList) {\n			Rect listRect = new Rect(position.x, position.y, position.width, listStyle.CalcHeight(listContent[0], 1.0f)*listContent.Length);\n			GUI.Box(listRect, \"\", boxStyle);\n			listEntry = GUI.SelectionGrid(listRect, listEntry, listContent, 1, listStyle);\n		}\n		if (done) {\n			showList = false;\n		}\n		return done;\n	}\n}",
+			"file": "Assets/Code/View/Popup.cs",
+			"file_size": 1366,
+			"file_write_time": 1394266545000000,
+			"settings":
+			{
+				"buffer_size": 1366,
 				"line_ending": "Unix"
 			}
 		}
@@ -107,9 +302,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 67.0,
 		"selected_items":
 		[
+			[
+				"Snippet: ",
+				"Snippet: strange-mediator"
+			],
+			[
+				"snipp",
+				"Snippet: #!/usr/bin/env"
+			],
 			[
 				"remove",
 				"Package Control: Remove Package"
@@ -129,10 +332,6 @@
 			[
 				"rein",
 				"Indentation: Reindent Lines"
-			],
-			[
-				"Snippet: ",
-				"Snippet: actor"
 			],
 			[
 				"defa",
@@ -161,14 +360,24 @@
 	"file_history":
 	[
 		"/Users/christianhenry/Documents/Unity/websocket-test/dnd-client.sublime-project",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/View/GameOverlayView",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/View/MainMenuMediator",
+		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/strange-command.sublime-snippet",
+		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/strange-mediator.sublime-snippet",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/Commands/UpdatePlayerCommand.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/Commands/CreateMapCommand",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/Signals/AddPlayerSignal.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/controller/StartCommand.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/Signals/StartSignal.cs",
 		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/StartSignal.cs",
+		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/strange/WebSocketMediator",
+		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/WebsocketView.cs",
 		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/JsonData/StartInfo.cs",
 		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/TileClick.cs",
 		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/DndClientRoot.cs",
 		"/Users/christianhenry/Documents/Unity/websocket-test/Assets/Code/DndClientContext.cs",
-		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/UnityC#.sublime-settings",
@@ -202,6 +411,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"roomName",
+			"p",
 			"super+shift+i",
 			"rein",
 			"System",
@@ -229,7 +440,6 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
 				{
@@ -237,15 +447,15 @@
 					"file": "Assets/Code/DndClientContext.cs",
 					"settings":
 					{
-						"buffer_size": 2637,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								961,
-								961
+								0,
+								0
 							]
 						],
 						"settings":
@@ -255,30 +465,31 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 64.0,
+						"translation.y": 354.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Assets/Code/StartSignal.cs",
+					"file": "Assets/Code/WebSocketWrapper.cs",
 					"settings":
 					{
-						"buffer_size": 114,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -288,18 +499,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "Assets/Code/controller/StartCommand.cs",
+					"file": "Assets/Code/WebSocketView.cs",
 					"settings":
 					{
-						"buffer_size": 607,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								323,
-								323
+								0,
+								0
 							]
 						],
 						"settings":
@@ -315,23 +526,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/Users/christianhenry/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+					"file": "Assets/Code/DndClientRoot.cs",
 					"settings":
 					{
-						"buffer_size": 58,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -341,18 +552,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "Assets/Code/WebsocketView.cs",
+					"file": "Assets/Code/WebSocketMediator.cs",
 					"settings":
 					{
-						"buffer_size": 4240,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								428,
-								428
+								0,
+								0
 							]
 						],
 						"settings":
@@ -368,23 +579,585 @@
 				},
 				{
 					"buffer": 5,
-					"file": "Assets/Code/DndClientRoot.cs",
+					"file": "Assets/Code/Commands/CreateMapCommand.cs",
 					"settings":
 					{
-						"buffer_size": 189,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								180,
-								180
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Assets/Code/Commands/UpdatePlayerCommand",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Assets/Code/Commands/RemovePlayerCommand.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Assets/Code/Commands/AddPlayerCommand.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "Assets/Code/Signals/AddPlayerSignal",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Assets/Code/TileView.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "Assets/Code/TileMediator.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "Assets/Code/Commands/StartCommand.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "Assets/Code/Commands/ConnectCommand.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "Assets/Code/strange/extensions/mediation/impl/View.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1494.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "Assets/Code/JsonData/MapInfo.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "Assets/Code/Commands/UpdatePlayerCommand.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "Assets/Code/View/WebSocketMediator.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 220.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "Assets/Code/RoomCreator.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "Assets/Assets/Plugins/UIToolkit/UIToolkit.cs",
+					"settings":
+					{
+						"buffer_size": 8815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "Assets/Code/View/WebSocketView.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "Assets/Code/View/TileView.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "Assets/Code/View/MainMenuView.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 129.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "Assets/Code/View/MainMenuMediator.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "Assets/Code/View/GameOverlayView.cs",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "Assets/Code/View/PopupTest.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "Assets/Code/View/Popup.cs",
+					"settings":
+					{
+						"buffer_size": 1366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								511
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

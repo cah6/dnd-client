@@ -5,7 +5,7 @@
   	"folders":
   	[
   	{
-  		"path": "Assets/Code",
+  		"path": "Assets/Scripts",
   		"file_exclude_patterns": ["*.meta"]
   	}
   	]
