@@ -20,10 +20,5 @@ public class ConnectCommand : Command {
 		//go.name = "WebSocketView";
 		go.AddComponent<WebSocketView>();
 		go.transform.parent = contextView.transform;
-
-		GameObject overlay = new GameObject();
-		go.name = "Overlay";
-		go.AddComponent<GameOverlayView>();
-		go.transform.parent = contextView.transform;
 	}
 }

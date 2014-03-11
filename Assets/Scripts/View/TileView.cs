@@ -28,4 +28,3 @@ public class TileView : View {
 		ws.Send(JsonWriter.Serialize(p));
 	}
 }
-

@@ -45,10 +45,13 @@ public class DndClientContext : MVCSContext
     
     protected override void mapBindings()
     {
+        injectionBinder.Bind<CreateCharMenuSignal>().ToSingleton();
+
+        //Bind our views to be automatically mediated
         mediationBinder.Bind<WebSocketView>().To<WebSocketMediator>();
         mediationBinder.Bind<MainMenuView>().To<MainMenuMediator>();
         mediationBinder.Bind<TileView>().To<TileMediator>();
-        mediationBinder.Bind<GameOverlayView>().To<GameOverlayMediator>();
+        mediationBinder.Bind<CreateCharView>().To<CreateCharMediator>();
         
         //Bind a start signal that we kick things off with
         commandBinder.Bind<StartSignal>().To<StartCommand>().Once();
@@ -64,8 +67,6 @@ public class DndClientContext : MVCSContext
         //Bind our websocket so that the WebSocketView can receive messages, and other GameObjects can send messages
         WebSocketWrapper ws = new WebSocketWrapper();
         injectionBinder.Bind<WebSocketWrapper>().ToValue(ws);
-
-
     }
 }
 
