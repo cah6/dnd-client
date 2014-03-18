@@ -4,19 +4,19 @@ using System.Collections;
 using strange.extensions.dispatcher.eventdispatcher.api;
 using strange.extensions.mediation.impl;
 using strange.extensions.signal.impl;
+using JsonFx.Json;
 
 public class MainMenuView : View {
 
-	[Inject]
-	public ConnectSignal connectSignal { get; set; }
-
+	/* Signals we want to fire to proceed */
 	[Inject]
 	public CreateCharMenuSignal createCharMenuSignal { get; set; }
 
-	//Username input by user, label GameObject needs to be dragged from inspector.
-	public UILabel username;
+	[Inject]
+	public SendToServerSignal sendToServerSignal { get; set; }
+	/*------------------------------------*/
 
-	//Gamename input by user, " ".
+	//Gamename input by user, label GameObject needs to be dragged from inspector.
 	public UILabel gamename;
 
 	internal void init(){
@@ -24,9 +24,7 @@ public class MainMenuView : View {
 
 	public void OnClickMakeGameButton(){
 		this.gameObject.SetActive(false);
-		string address = gamename.text + "/" + username.text;
-		Debug.Log(address);
-		connectSignal.Dispatch(address);
+		sendToServerSignal.Dispatch(JsonWriter.Serialize(new JoinGame(gamename.text)));
 	}
 
 	public void OnClickCreateCharMenu(){
@@ -34,3 +32,5 @@ public class MainMenuView : View {
 		createCharMenuSignal.Dispatch();
 	}
 }
+
+

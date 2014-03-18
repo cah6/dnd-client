@@ -7,8 +7,10 @@ public class CreateCharMediator : Mediator
 	[Inject]
 	public CreateCharView view{ get; set;}
 
+	/* Signals we want to listen for to turn on*/
 	[Inject]
 	public CreateCharMenuSignal createCharMenuSignal { get; set; }
+	/*------------------------------------------*/
 	
 	public override void OnRegister()
 	{
@@ -20,16 +22,16 @@ public class CreateCharMediator : Mediator
 	
 	public override void OnRemove()
 	{
-		Debug.Log("Mediator OnRemove");
-
 		createCharMenuSignal.RemoveListener(show);
 	}
 
-	private void show(){
+	private void show()
+	{
 		gameObject.SetActive(true);
 	}
 
-	private void hide(){
+	private void hide()
+	{
 		gameObject.SetActive(false);
 	}
 }

@@ -27,6 +27,7 @@ public class Player {
 	public string name { get; set; }
 	public Point location {get; set; }
 
+	//I believe needed for automatic de-serialization
 	public Player(){
 		
 	}

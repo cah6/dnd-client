@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{4BE51A4B-5586-7773-2075-29CDD49E4F9F}</ProjectGuid>
+	<ProjectGuid>{6FD4533A-4BD9-B5AA-B5B9-DCB702119D8C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -198,29 +198,32 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
-     <Compile Include="Assets\Scripts\ComboBox.cs" />
-     <Compile Include="Assets\Scripts\ComboBoxTest.cs" />
      <Compile Include="Assets\Scripts\Commands\AddPlayerCommand.cs" />
-     <Compile Include="Assets\Scripts\Commands\ConnectCommand.cs" />
+     <Compile Include="Assets\Scripts\Commands\ConnectToServerCommand.cs" />
      <Compile Include="Assets\Scripts\Commands\CreateMapCommand.cs" />
+     <Compile Include="Assets\Scripts\Commands\MenuNavSignals.cs" />
      <Compile Include="Assets\Scripts\Commands\RemovePlayerCommand.cs" />
+     <Compile Include="Assets\Scripts\Commands\SendToServerCommand.cs" />
+     <Compile Include="Assets\Scripts\Commands\SingletonSignals.cs" />
      <Compile Include="Assets\Scripts\Commands\StartCommand.cs" />
      <Compile Include="Assets\Scripts\Commands\UpdatePlayerCommand.cs" />
      <Compile Include="Assets\Scripts\DndClientContext.cs" />
      <Compile Include="Assets\Scripts\DndClientRoot.cs" />
+     <Compile Include="Assets\Scripts\JsonData\Character.cs" />
+     <Compile Include="Assets\Scripts\JsonData\JoinData.cs" />
      <Compile Include="Assets\Scripts\JsonData\MapInfo.cs" />
      <Compile Include="Assets\Scripts\JsonData\StartInfo.cs" />
-     <Compile Include="Assets\Scripts\View\CreateCharacterMediator.cs" />
-     <Compile Include="Assets\Scripts\View\CreateCharacterView.cs" />
-     <Compile Include="Assets\Scripts\View\GameOverlayMediator.cs" />
-     <Compile Include="Assets\Scripts\View\GameOverlayView.cs" />
+     <Compile Include="Assets\Scripts\Services\IServerConnectionService.cs" />
+     <Compile Include="Assets\Scripts\Services\MessageParseStrategy.cs" />
+     <Compile Include="Assets\Scripts\Services\WebSocketService.cs" />
+     <Compile Include="Assets\Scripts\View\CreateCharMediator.cs" />
+     <Compile Include="Assets\Scripts\View\CreateCharView.cs" />
+     <Compile Include="Assets\Scripts\View\LoginMenuMediator.cs" />
+     <Compile Include="Assets\Scripts\View\LoginMenuView.cs" />
      <Compile Include="Assets\Scripts\View\MainMenuMediator.cs" />
      <Compile Include="Assets\Scripts\View\MainMenuView.cs" />
      <Compile Include="Assets\Scripts\View\TileMediator.cs" />
      <Compile Include="Assets\Scripts\View\TileView.cs" />
-     <Compile Include="Assets\Scripts\View\WebSocketMediator.cs" />
-     <Compile Include="Assets\Scripts\View\WebSocketView.cs" />
-     <Compile Include="Assets\Scripts\WebSocketWrapper.cs" />
      <Compile Include="Assets\Scripts\strange\ReadMe.cs" />
      <Compile Include="Assets\Scripts\strange\extensions\command\api\CommandExceptionType.cs" />
      <Compile Include="Assets\Scripts\strange\extensions\command\api\CommandKeys.cs" />

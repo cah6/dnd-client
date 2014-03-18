@@ -13,8 +13,9 @@ using strange.extensions.signal.impl;
 
 public class TileView : View {
 
+	//Inject signals we want to fire
 	[Inject]
-	public WebSocketWrapper ws { get; set; }
+	public SendToServerSignal sendToServerSignal { get; set; }
 
 	internal void init () {
 	}
@@ -25,6 +26,6 @@ public class TileView : View {
 	void OnMouseDown(){
 		Debug.Log ("Clicked tile at position " + transform.position.x + "," + transform.position.y);
 		Player p = new Player("playerType", "cah6", new Point((int) transform.position.x, (int) transform.position.y));
-		ws.Send(JsonWriter.Serialize(p));
+		sendToServerSignal.Dispatch(JsonWriter.Serialize(p));
 	}
 }
